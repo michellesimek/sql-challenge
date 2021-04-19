@@ -19,7 +19,7 @@ To begin, a database was created and the following blank tables were created:
 
 Once the tables were created, csvs were imported into the corresponding SQL tables with headers accounted for.
 
-Once the database was complete, the following was determined:
+Once the database was complete, the following was completed:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 2. List first name, last name, and hire date for employees who were hired in 1986.
