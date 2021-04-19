@@ -8,38 +8,38 @@ DROP TABLE IF EXISTS titles;
 
 -- Create tables for csvs
 CREATE TABLE departments (
-	dept_no varchar,
-	dept_name varchar
+	dept_no varchar NOT NULL,
+	dept_name varchar NOT NULL
 );
 
 CREATE TABLE dept_emp (
-	emp_no int,
-	dept_no varchar
+	emp_no int NOT NULL,
+	dept_no varchar NOT NULL
 );
 
 CREATE TABLE dept_manager (
-	dept_no varchar,
-	emp_no int
+	dept_no varchar NOT NULL,
+	emp_no int NOT NULL
 );
 
 CREATE TABLE employees (
-	emp_no int, 
-	emp_title_id varchar,
-	birth_date date,
-	first_name varchar,
-	last_name varchar,
-	sex varchar,
-	hire_date date
+	emp_no int NOT NULL, 
+	emp_title_id varchar NOT NULL,
+	birth_date date NOT NULL,
+	first_name varchar NOT NULL,
+	last_name varchar NOT NULL,
+	sex varchar NOT NULL,
+	hire_date date NOT NULL
 );
 
 CREATE TABLE salaries (
-	emp_no int, 
-	salary int
+	emp_no int NOT NULL, 
+	salary int NOT NULL
 );
 
 CREATE TABLE titles (
-	title_id varchar, 
-	title varchar
+	title_id varchar NOT NULL, 
+	title varchar NOT NULL
 );
 
 -- Import data and check to see the data imported correctly
