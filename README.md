@@ -1,7 +1,7 @@
 # sql-challenge
 
 ### Data Engineering 
-Using the tool http://www.quickdatabasediagrams.com, an ERD (entity relationship diagram) was created using the data from the six csv provided for this assignment. In the ERD, the following was specified:
+Using the tool http://www.quickdatabasediagrams.com, an ERD (entity relationship diagram) was created using the data from the six csvs provided for this assignment. In the ERD, the following was specified:
  - data type
  - primary key
  - foreign key
